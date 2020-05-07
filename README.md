@@ -281,8 +281,8 @@ Usage:
 ```
 Usage:
 
-~welcomemsg #mod-logs
-~welcomemsg on
+~modlogs #mod-logs
+~modlogs on
 ```
 - \~welcomemsg || If this command is run by itself, it will display the current guild settings for welcome messages.
     - \<on/off\> || Turns Isabelle welcome messages *\<on/off\>*.
