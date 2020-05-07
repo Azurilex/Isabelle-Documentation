@@ -275,16 +275,25 @@ Usage:
 
 ~prefix !
 ```
-- \~welcomemsg || If this command is run by itself, it will display the current guild settings for welcome messages.
-    - \<on/off\> || Turns Isabelle welcome messages *\<on/off\>*.
-    - \<msg\> || Sets Isabelle welcome messages to *\<msg\>*. You can mention the user in the *\<msg\>* by using *{user}* wherever you want to message them.
-    - \<channel\> || Sets Isabelle welcome messages channel to *\<channel\>*.
+- \~modlogs || If this command is run by itself, it will display the current guild settings for moderation logs.
+    - \<on/off\> || Turns Isabelle moderation logs *\<on/off\>*.
+    - \<channel\> || Sends Isabelle moderation logs to *\<channel\>*.
 ```
 Usage:
 
+~welcomemsg #mod-logs
 ~welcomemsg on
+```
+- \~welcomemsg || If this command is run by itself, it will display the current guild settings for welcome messages.
+    - \<on/off\> || Turns Isabelle welcome messages *\<on/off\>*.
+    - \<msg\> || Sets Isabelle welcome messages to *\<msg\>*. You can mention the user in the *\<msg\>* by using *{user}* wherever you want to message them.
+    - \<channel\> || Sends Isabelle welcome messages to *\<channel\>*.
+```
+Usage:
+
 ~welcomemsg welcome to the server {user}!
 ~welcomemsg #welcome-log
+~welcomemsg on
 ```
 - \~userxp \[on/off\] || Turns guild member experience to *\[on/off\]*. This is off by default, if turned on, members can gather XP just by chatting.
 ```
